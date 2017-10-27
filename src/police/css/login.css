@@ -13,7 +13,8 @@ body {
 }
 .login {
   position: absolute;
-  top: 220px;
+  top: 50%;
+  margin-top: -230px;
   right: 300px;
   padding: 60px 52px;
   border-radius: 5px;
