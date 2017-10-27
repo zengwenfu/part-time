@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca587780-176d-4673-bc52-a3af1f55d367" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/css/popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/js/popup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/popup.html" afterPath="$PROJECT_DIR$/src/police/popup.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,10 +44,9 @@
       <file leaf-file-name="popup.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/police/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="387" column="40" lean-forward="false" selection-start-line="387" selection-start-column="40" selection-end-line="387" selection-end-column="40" />
+            <state relative-caret-position="406">
+              <caret line="246" column="28" lean-forward="false" selection-start-line="246" selection-start-column="28" selection-end-line="246" selection-end-column="28" />
               <folding>
-                <element signature="e#250#399#0" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -70,7 +71,50 @@
                 <element signature="n#tr#9;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1509091985061" expanded="false" signature="7139:7336" ph="..." />
+                <marker date="1509092256775" expanded="false" signature="3914:4111" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/police/js/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/police/css/popup.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+              <folding>
+                <element signature="e#44#165#0" expanded="false" />
+                <element signature="e#186#206#0" expanded="false" />
+                <element signature="e#234#320#0" expanded="false" />
+                <element signature="e#349#381#0" expanded="false" />
+                <element signature="e#413#536#0" expanded="false" />
+                <element signature="e#572#657#0" expanded="false" />
+                <element signature="e#733#768#0" expanded="false" />
+                <element signature="e#806#832#0" expanded="false" />
+                <element signature="e#879#1093#0" expanded="false" />
+                <element signature="e#1141#1173#0" expanded="false" />
+                <element signature="e#1246#1343#0" expanded="false" />
+                <element signature="e#1422#1470#0" expanded="false" />
+                <element signature="e#1591#1675#0" expanded="false" />
+                <element signature="e#1745#1807#0" expanded="false" />
+                <element signature="e#1883#1901#0" expanded="false" />
+                <element signature="e#1981#2168#0" expanded="false" />
+                <element signature="e#2260#2307#0" expanded="false" />
+                <element signature="e#2371#2412#0" expanded="false" />
+                <element signature="e#2486#2624#0" expanded="false" />
+                <element signature="e#2702#2749#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -91,8 +135,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -105,6 +150,8 @@
         <option value="$PROJECT_DIR$/src/police/css/common.css" />
         <option value="$PROJECT_DIR$/src/police/login.html" />
         <option value="$PROJECT_DIR$/src/police/css/login.css" />
+        <option value="$PROJECT_DIR$/src/police/css/popup.css" />
+        <option value="$PROJECT_DIR$/src/police/js/popup.js" />
         <option value="$PROJECT_DIR$/src/police/popup.html" />
       </list>
     </option>
@@ -166,6 +213,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="police" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part-time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part-time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="police" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part-time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part-time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="police" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,12 +357,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509065557815</updated>
-      <workItem from="1509065559542" duration="15839000" />
+      <workItem from="1509065559542" duration="16111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15839000" />
+    <option name="totallyTimeSpent" value="16111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -346,12 +437,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/css/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <folding>
+            <element signature="e#44#165#0" expanded="false" />
+            <element signature="e#186#206#0" expanded="false" />
+            <element signature="e#234#320#0" expanded="false" />
+            <element signature="e#349#381#0" expanded="false" />
+            <element signature="e#413#536#0" expanded="false" />
+            <element signature="e#572#657#0" expanded="false" />
+            <element signature="e#733#768#0" expanded="false" />
+            <element signature="e#806#832#0" expanded="false" />
+            <element signature="e#879#1093#0" expanded="false" />
+            <element signature="e#1141#1173#0" expanded="false" />
+            <element signature="e#1246#1343#0" expanded="false" />
+            <element signature="e#1422#1470#0" expanded="false" />
+            <element signature="e#1591#1675#0" expanded="false" />
+            <element signature="e#1745#1807#0" expanded="false" />
+            <element signature="e#1883#1901#0" expanded="false" />
+            <element signature="e#1981#2168#0" expanded="false" />
+            <element signature="e#2260#2307#0" expanded="false" />
+            <element signature="e#2371#2412#0" expanded="false" />
+            <element signature="e#2486#2624#0" expanded="false" />
+            <element signature="e#2702#2749#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/js/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/police/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="387" column="40" lean-forward="false" selection-start-line="387" selection-start-column="40" selection-end-line="387" selection-end-column="40" />
+        <state relative-caret-position="406">
+          <caret line="246" column="28" lean-forward="false" selection-start-line="246" selection-start-column="28" selection-end-line="246" selection-end-column="28" />
           <folding>
-            <element signature="e#250#399#0" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -376,7 +505,7 @@
             <element signature="n#tr#9;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1509091985061" expanded="false" signature="7139:7336" ph="..." />
+            <marker date="1509092256775" expanded="false" signature="3914:4111" ph="..." />
           </folding>
         </state>
       </provider>
