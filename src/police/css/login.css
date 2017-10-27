@@ -43,6 +43,7 @@ body {
   font-size: 16px;
   padding-left: 15px;
   border-radius: 4px;
+  line-height: 34px;
 }
 .login .remember {
   float: left;
@@ -67,4 +68,5 @@ body {
   border-radius: 4px;
   font-size: 18px;
   letter-spacing: 6px;
+  line-height: 38px;
 }
