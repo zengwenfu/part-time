@@ -290,7 +290,6 @@ initBarChart('bar_four', optionBar4)
 
 $(function() {
   $('.circle_logo').on('click', function() {
-    console.log(111)
     $('.container-popup-first').show()
   });
   $('.confirm .close-panel').on('click', function() {
