@@ -282,3 +282,18 @@ initBarChart('bar_one', optionBar1)
 initBarChart('bar_two', optionBar2)
 initBarChart('bar_three', optionBar3)
 initBarChart('bar_four', optionBar4)
+
+$(function() {
+  $('.circle_logo').on('click', function() {
+    console.log(111)
+    $('.container-popup-first').show()
+  });
+  $('.container-popup-first').on('mouseleave', function() {
+       $('.container-popup-first').hide()
+    }
+  )
+  $('.container-popup-two').on('mouseleave', function() {
+       $('.container-popup-two').hide()
+    }
+  )
+});

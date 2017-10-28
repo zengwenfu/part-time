@@ -26,6 +26,8 @@
   width: 146px;
   height: 146px;
   background-image: url(../images/circle.png);
+  cursor: pointer;
+  z-index: 10;
 }
 .circle_text{
   position: absolute;

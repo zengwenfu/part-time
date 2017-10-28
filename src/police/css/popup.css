@@ -1,13 +1,14 @@
 .container-popup-first,.container-popup-two {
   position: absolute;
-  top: 150px;
-  left: 480px;
+  top: 24%;
+  left: 50%;
   width: 960px;
+  margin-left: -480px;
   border: 6px solid #0078ff;
   border-radius: 6px;
-}
-.container-popup-two{
   display: none;
+  z-index: 100;
+  background-color: #fff;
 }
 .container-popup-two .title{
   color: #0078ff;
