@@ -95,16 +95,27 @@
 
 /* ----- part_1 line_part ------- */
 .line_container{
+  position: relative;
   margin-top: 90px;
-  height: 260px;
+  height: 750px;
 }
-.pie_container{
-  height: 450px;
+.line_leftBottom{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.line_rightBottom{
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .line_content{
   float: left;
   width: 50%;
-  height: 100%;
+  height: 500px;
+}
+.line_height{
+  height: 250px;
 }
 .line_inner{
   margin: 0 auto;
@@ -255,6 +266,7 @@
 }
 /* ------ bar_chart ------ */
 .bar_container{
+  width: 100%;
   overflow: hidden;
   border-bottom: 2px solid #e7e8e8;
 }
