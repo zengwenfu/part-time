@@ -25,9 +25,22 @@
   bottom: -73px;
   width: 146px;
   height: 146px;
-  background-image: url(../images/circle.png);
   cursor: pointer;
   z-index: 10;
+}
+.circle_img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/circle.png);
+  -webkit-transition: transform .25s linear;
+  -moz-transition: transform .25s linear;
+  -o-transition: transform .25s linear;
+  transition: transform .25s linear;
+}
+.circle_logo:hover .circle_img{
+  transform:rotate(90deg);
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3)​
 }
 .circle_text{
   position: absolute;
@@ -46,16 +59,19 @@
 }
 .header_link{
   margin: 0 auto;
-  line-height: 40px;
+  line-height: 44px;
 }
 .header_link a{
   padding: 0 26px;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   text-decoration: none;
 }
 .header_link a.fix_ie {
   margin-left: 240px;
+}
+.header_link a:hover{
+  color: red;
 }
 .user_content{
   position: absolute;
@@ -80,10 +96,10 @@
 /* ----- part_1 line_part ------- */
 .line_container{
   margin-top: 90px;
-  height: 160px;
+  height: 260px;
 }
 .pie_container{
-  height: 500px;
+  height: 450px;
 }
 .line_content{
   float: left;
@@ -260,7 +276,7 @@
   border-right: 2px solid #e7e8e8;
 }
 .bar_chart{
-  width: 600px;
+  width: 630px;
   height: 500px;
 }
 .bottom{
