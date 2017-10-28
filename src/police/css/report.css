@@ -102,7 +102,7 @@
 .line_leftBottom{
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 40px;
 }
 .line_rightBottom{
   position: absolute;
