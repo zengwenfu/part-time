@@ -1,0 +1,271 @@
+/* ------- header ------- */
+.header{
+  position: relative;
+  text-align: center;
+}
+.header .bg_img{
+  width: 100%;
+}
+.header_container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.header .title{
+  line-height: 80px;
+  font-size: 34px;
+  color: #ffffff;
+}
+.circle_logo{
+  position: absolute;
+  margin-left: -73px;
+  left: 50%;
+  bottom: -73px;
+  width: 146px;
+  height: 146px;
+  background-image: url(../images/circle.png);
+}
+.circle_text{
+  position: absolute;
+  left: 43px;
+  top: 48px;
+  width: 60px;
+  height: 48px;
+  line-height: 24px;
+  font-size: 20px;
+  color: #0008b1;
+}
+.header_link_p{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.header_link{
+  margin: 0 auto;
+  line-height: 40px;
+}
+.header_link a{
+  padding: 0 26px;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header_link a.fix_ie {
+  margin-left: 240px;
+}
+.user_content{
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+.user{
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: url('../images/user.png');
+}
+.user_content a {
+  margin-left: 15px;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 22px;
+  color: #d3d4ea;
+  text-decoration: none;
+}
+
+/* ----- part_1 line_part ------- */
+.line_container{
+  margin-top: 90px;
+  height: 160px;
+}
+.pie_container{
+  height: 500px;
+}
+.line_content{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.line_inner{
+  margin: 0 auto;
+  width: 82%;
+  height: 100%;
+}
+.line_title{
+  padding-left: 40px;
+  margin-bottom: 40px;
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 2px solid #b0deea;
+  font-size: 26px;
+  color: #333333;
+  background: url('../images/b_arrow.png') no-repeat left center; 
+}
+.line_item{
+  margin-bottom: 12px;
+}
+.line_bg{
+  float: left;
+  position: relative;
+  margin-bottom: 10px;
+  width: 216px;
+  height: 56px;
+  line-height: 56px;
+  background: red;
+  background: url('../images/icon.png');
+}
+.pos_two {
+  background-position: -254px 0;
+}
+.pos_three{
+  background-position: 0 -65px;
+}
+.pos_four{
+  background-position: -254px -65px;
+}
+.l_right_text{
+  margin-left: 10px;
+  width: 140px;
+  height: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align:justify; text-justify:distribute-all-lines; text-align-last:justify; 
+}
+.l_right_num {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  font-size: 20px;
+
+}
+.line_inline{
+  margin-left: 40px;
+}
+.line_arrow{
+  display: inline-block;
+  position: relative;
+  width: 44%;
+  height: 36px;
+  background: #293f7d;
+}
+.line_arrow:before{
+  content: '';
+  position: absolute;
+  right: -36px;
+  top: 0;
+  border: 18px solid #293f7d;
+  border-color: transparent transparent transparent #293f7d;
+}
+.line_arrow:after{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 36px;
+  left: -15px;
+  top: 0;
+  background: url('../images/left_01.png');
+}
+.line_circle {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  margin-top: 8px;
+  overflow: hidden;
+}
+.radius {
+  margin: 0 0 1px 1px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 19px dotted;
+  color: #293f7d;
+}
+.item_title{
+  vertical-align: top;
+  line-height: 36px;
+}
+.blue{
+  color: #293f7d;
+}
+.green {
+  color: #009b4c;
+}
+.red {
+  color: #e62129;
+}
+.orange{
+  color: #ec6100;
+}
+.lightBlue {
+  color: #0081e1;
+}
+.bg_green{
+  width: 35%;
+  background: #009b4c;
+}
+.bg_red{
+  width: 48%;
+  background: #e62129;
+}
+.bg_green:before{
+  border-color: transparent transparent transparent #009b4c;
+}
+.bg_red:before{
+  border-color: transparent transparent transparent #e62129;
+}
+.bg_green:after{
+  background: url('../images/left_02.png')
+}
+.bg_red:after{
+  background: url('../images/left_03.png')
+}
+.item_title2{
+  margin-left: 30px;
+}
+/* ------ pie_chart ------ */
+.pie_chart{
+  width: 500px;
+  height: 500px;
+}
+/* ------ bar_chart ------ */
+.bar_container{
+  overflow: hidden;
+  border-bottom: 2px solid #e7e8e8;
+}
+.bar_content{
+  float:left;
+  width: 50%;
+  height: 630px;
+}
+.bar_title{
+  height: 76px;
+  line-height: 76px;
+  text-align: center;
+  color: #333333;
+  font-size: 30px;
+  background: #cfebfa;
+}
+.bar_boxing{
+  box-sizing: border-box;
+  border-right: 2px solid #e7e8e8;
+}
+.bar_chart{
+  width: 600px;
+  height: 500px;
+}
+.bottom{
+  margin-top: 20px;
+  height: 60px;
+  text-align: center;
+  color: #999999;
+  line-height: 24px;
+}
+
