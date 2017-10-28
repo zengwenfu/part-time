@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/report.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="./images/rep_header.jpg" alt="" class="bg_img">
+    <div class="circle_logo">
+      <div class="circle_text">情报信息推送</div>
+    </div>
+    <div class="header_container">
+      <div class="title">虹桥站派出所警务综合应用平台</div>
+    </div>
+    <div class="header_link_p">
+      <div class="header_link">
+        <a href="javascript:;">综合信息系统</a>
+        <a href="javascript:;">信息情报系统</a>
+        <a href="javascript:;">网上办案系统</a>
+        <a href="javascript:;" class="fix_ie">公安局大情报</a>
+        <a href="javascript:;">全路警综平台</a>
+        <a href="javascript:;">公安部云搜索</a>
+      </div>
+    </div>
+    <div class="user_content">
+      <div class="user"></div>
+      <a href="javascript:;">退出登录</a>
+    </div>
+  </div>
+  <div class="line_container">
+    <div class="line_content">
+      <div class="line_inner">
+        <div class="line_title">当日上车旅客(27,993)</div>
+        <div class="line_text">
+          <div class="line_item">
+            <span class="item_title">京沪方向</span>
+            <div class="line_circle">
+              <div class="radius"></div>
+            </div>
+            <div class="line_arrow"></div>
+            <span class="item_title item_title2 blue">9,465</span>
+          </div>
+          <div class="line_item">
+            <span class="item_title">沪昆方向</span>
+            <div class="line_circle">
+              <div class="radius green"></div>
+            </div>
+            <div class="line_arrow bg_green"></div>
+            <span class="item_title item_title2 green">7,986</span>
+          </div>
+          <div class="line_item">
+            <span class="item_title">沪蓉方向</span>
+            <div class="line_circle">
+              <div class="radius red"></div>
+            </div>
+            <div class="line_arrow bg_red"></div>
+            <span class="item_title item_title2 red">10,542</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line_content">
+      <div class="line_inner">
+        <div class="line_title">当日推送数据</div>
+        <div class="line_text">
+          <div class="line_bg pos_one">
+            <div class="l_right_text">当日逃犯数</div>
+            <div class="l_right_num blue">2</div>
+          </div>
+          <div class="line_bg line_inline pos_two">
+            <div class="l_right_text">涉毒人员数</div>
+            <div class="l_right_num green">36</div>
+          </div>
+          <div class="line_bg pos_three">
+            <div class="l_right_text">渉疆重点旅客数</div>
+            <div class="l_right_num orange">200</div>
+          </div>
+          <div class="line_bg line_inline pos_four">
+            <div class="l_right_text">旅财前科人员数</div>
+            <div class="l_right_num lightBlue">200</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="line_container pie_container">
+    <div class="line_content">
+      <div class="line_inner">
+        <div class="line_title">当日接警数(90起)</div>
+        <div id="pie_left" class="pie_chart"></div>
+      </div>
+    </div>
+    <div class="line_content">
+      <div class="line_inner">
+        <div class="line_title">当日上车旅客户籍地分析</div>
+        <div id="pie_right" class="pie_chart"></div>
+      </div>
+    </div>
+  </div>
+  <div class="bar_container">
+    <div class="bar_content bar_boxing">
+      <div class="bar_title">渉疆重点人员查控</div>
+      <div id="bar_one" class="bar_chart"></div>
+    </div>
+    <div class="bar_content">
+      <div class="bar_title">网上逃犯查缉</div>
+      <div id="bar_two" class="bar_chart"></div>
+    </div>
+    <div class="bar_content bar_boxing">
+      <div class="bar_title">涉毒人员查控</div>
+      <div id="bar_three" class="bar_chart"></div>
+    </div>
+    <div class="bar_content">
+      <div class="bar_title">流窜重点人员</div>
+      <div id="bar_four" class="bar_chart"></div>
+    </div>
+  </div>
+  <div class="bottom">
+    版权所有&nbsp;上海铁路公安局 <br>
+    &copy; 2017
+  </div>
+  <script src='./js/jquery.min.js'></script>
+  <script src='./js/echarts.min.js'></script>
+  <script src='./js/chart.js'></script>
+</body>
+
+</html>
