@@ -288,12 +288,7 @@ $(function() {
     console.log(111)
     $('.container-popup-first').show()
   });
-  $('.container-popup-first').on('mouseleave', function() {
-       $('.container-popup-first').hide()
-    }
-  )
-  $('.container-popup-two').on('mouseleave', function() {
-       $('.container-popup-two').hide()
-    }
-  )
+  $('.confirm .close-panel').on('click', function() {
+      $('.container-popup-first').hide()
+  })
 });
