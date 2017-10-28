@@ -140,13 +140,18 @@ var colorList = [
 function initBarOption (xData, dataReal, dataAll) {
   var option_bar = {
     legend: {
+       left: 'center',
        bottom: 20,
+       textStyle: {
+         fontSize: 14
+       },
        data: ['推送数', '查控数']
    },
    "grid": {
        "left": "20%",
        "borderWidth": 0, 
-       "y2": 120
+       "y2": 120,
+       width: '80%'
    }, 
    "calculable": true, 
    "xAxis": [
@@ -187,7 +192,7 @@ function initBarOption (xData, dataReal, dataAll) {
        {
            name: '人数',
            nameLocation: 'center',
-           nameGap: 50,
+           nameGap: 60,
            "type": "value", 
            "splitLine": {
                "show": true,
@@ -297,3 +302,4 @@ $(function() {
     }
   )
 });
+
