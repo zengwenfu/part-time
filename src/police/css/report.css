@@ -1,4 +1,8 @@
 /* ------- header ------- */
+body{
+  min-width: 1200px;
+  overflow-x: auto;
+}
 .header{
   position: relative;
   text-align: center;
@@ -62,7 +66,7 @@
   line-height: 44px;
 }
 .header_link a{
-  padding: 0 26px;
+  padding: 0 16px;
   font-size: 20px;
   color: #ffffff;
   text-decoration: none;
@@ -108,6 +112,11 @@
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.line_rightTop{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .line_content{
   float: left;
@@ -288,7 +297,7 @@
   border-right: 2px solid #e7e8e8;
 }
 .bar_chart{
-  width: 630px;
+  width: 580px;
   height: 500px;
 }
 .bottom{
