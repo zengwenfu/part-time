@@ -295,5 +295,27 @@ $(function() {
   $('.confirm .close-panel').on('click', function() {
       $('.container-popup-first').hide()
   })
+  setLineWidth(9465, 17896, 10543)
 });
+
+// 数字每3位以逗号隔开
+function splitNum (num) {
+  return num.toString().replace(/\d(?=(?:\d{3})+\b)/g,'$&,');
+}
+/**
+ * 根据数字设置长度
+ * @param {*Number} blueNum 京沪方向
+ * @param {*Number} greenNum 沪昆方向
+ * @param {*Number} redNum 沪蓉方向
+ */
+function setLineWidth (blueNum, greenNum, redNum) {
+  var maxNum = Math.max(blueNum, greenNum, redNum);
+  var $blue = $(".bg_blue");
+  var $green = $(".bg_green");
+  var $red = $(".bg_red");
+  console.log($blue)
+  $blue.css('width', (blueNum / maxNum * 56).toFixed(2) + '%').next('span').text(splitNum(blueNum));
+  $green.css('width', (greenNum / maxNum * 56).toFixed(2) + '%').next('span').text(splitNum(greenNum));
+  $red.css('width', (redNum / maxNum * 56).toFixed(2) + '%').next('span').text(splitNum(redNum));
+}
 
